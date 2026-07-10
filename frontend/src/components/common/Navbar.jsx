@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX, FiLogOut, FiUser, FiHome, FiCalendar, FiFileText, FiShoppingBag, FiTrash2, FiCamera, FiActivity, FiBell, FiSettings, FiSun, FiMoon, FiMonitor } from 'react-icons/fi';
-import logo from '../../assets/medastrax-logo.png';
+import logo from '../../assets/medastrax-logo-new.png';
 import toast from 'react-hot-toast';
 import { familyMemberAPI, fileAPI, authAPI, notificationAPI } from '../../services/api';
 import './Navbar.css';

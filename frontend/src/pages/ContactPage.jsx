@@ -79,7 +79,7 @@ export default function ContactPage() {
 
   const infoCards = [
     { icon: <FiMapPin />, cls: 'info-icon-coral', title: 'Our Office', text: <>GBP Crest Road, Bhago Majra<br />Kharar, Punjab — 140301</> },
-    { icon: <FiHeadphones />, cls: 'info-icon-purple', title: 'Support', text: <>support@demo.com<br />+91 79887XXXXX</> },
+    { icon: <FiHeadphones />, cls: 'info-icon-purple', title: 'Support', text: <><a href="mailto:admin@medastrax.com" style={{color:'inherit'}}>admin@medastrax.com</a><br />+91 7527910223</> },
     { icon: <FiClock />, cls: 'info-icon-green', title: 'Working Hours', text: <>Mon – Sat: 9:00 AM – 6:00 PM<br />Emergency: 24 / 7</> },
   ];
 
