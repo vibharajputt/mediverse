@@ -45,6 +45,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/upload", "/api/upload/**").permitAll()
                 .requestMatchers("/uploads/**").permitAll()
                 .requestMatchers("/api/ai/query-chat", "/api/ai/query-chat/reset").permitAll()
+                .requestMatchers("/health").permitAll()
                 .anyRequest().authenticated()
             )
             .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
